@@ -37,6 +37,10 @@ li{
 }
 h1.goodh1{
     font-size: 2.5rem;
+    text-align: center;
+}
+.redirectionText{
+    text-align: center;
 }
 
 .inputDiv{
@@ -98,5 +102,46 @@ button:hover{
     }
     100%{
         color: #fff;
+    }
+}
+
+@media screen and (max-width : 625px) {
+    form{
+        width: 25rem;
+    }
+
+    h1.goodh1{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 440px) {
+    form{
+        width: 20rem;
+    }
+
+    li{
+        font-size: 2rem;
+    }
+
+    button{
+        padding: .8rem 3rem;
+        font-size: 1.2rem;
+    }
+
+    h1.goodh1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 360px) {
+    form{
+        width: 15rem;
+    }
+
+    li{
+        font-size: 2rem;
     }
 }
