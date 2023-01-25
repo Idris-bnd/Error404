@@ -13,6 +13,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -21,9 +22,20 @@ form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 35rem;
 }
 
-h1{
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+li{
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+h1.goodh1{
     font-size: 2.5rem;
 }
 
@@ -47,6 +59,12 @@ input{
     font-size: 1.5rem;
     color: #C21C40;
     padding-left: 1rem;
+    caret-color: #000000;
+}
+
+p.badResponseElement{
+    color: #C21C40;
+    font-size: 1.5rem;
 }
 
 button{
@@ -63,4 +81,22 @@ button{
 
 button:hover{
     background-color: #c23957;
+}
+
+@keyframes good {
+    50%{
+        color: #1cc232;
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+@keyframes liAnimation {
+    50%{
+        color: #C21C40;
+    }
+    100%{
+        color: #fff;
+    }
 }
