@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
     <title>Error404</title>
 </head>
 <body>
@@ -12,17 +18,17 @@
 
     <div class="app">
         <form id="myForm">
-            <h1 id="question"></h1>
+            <h1 id="question">Math.floor((202 + 100) * 1.338) = ???</h1>
             
             <div class="inputDiv">
                 <label for="response">RESPONSE:</label>
-                <input type="number" name="response" id="responseInput">
+                <input type="number" name="response" id="responseInput" pattern="[0-9]$">
             </div>
             
             <button>SEND</button>
         </form>
     </div>
 
-    <script src="app.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
