@@ -8,7 +8,7 @@ const questionsArray = [
 ];
 
 const badResponseArray = [
-    'T\'as arrêter l\'école à quel âge déjà ? ^^\'',
+    'T\'as arrêté l\'école à quel âge déjà ? ^^\'',
     'Mdrrrrr bon. Aller j\'te laisse recommencer :)',
     'Tu fais pas d\'effort là ^^ (regarde le nom de la page :))',
     'C\'est quoi ce raffut, aller concentre toi stp',
