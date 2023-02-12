@@ -13,7 +13,7 @@ const badResponseArray = [
     'Tu fais pas d\'effort là ^^ (regarde le nom de la page :))',
     'C\'est quoi ce raffut, aller concentre toi stp',
     'Nop. recommence',
-    'Recrutez moi svp je trouve pas de taff j\'me retrouve à faire des pages 404',
+    'Recrutez moi svp je suis gentil et je travaille bien',
 ];
 
 const goodResponseArray = [
